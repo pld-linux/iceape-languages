@@ -10,7 +10,7 @@ curl -s $U | sed -ne 's,.*href="\([^"]\+\)/".*,'"$U"'xpi/\1.xpi,p'
 %endif
 
 Summary:	Language packs for Iceape
-Summary(pl.UTF-8):	Pakiety językowe dla Iceape-a
+Summary(pl.UTF-8):	Pakiety językowe dla Iceape'a
 Name:		iceape-languages
 Version:	2.15.2
 Release:	1
@@ -81,11 +81,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Language packs for Iceape.
 
 %description -l pl.UTF-8
-Pakiety językowe dla Iceape-a.
+Pakiety językowe dla Iceape'a.
 
 %package -n iceape-lang-be
 Summary:	Belarusian resources for Iceape
-Summary(pl.UTF-8):	Białoruskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Białoruskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -94,13 +94,13 @@ Provides:	iceape-lang-resources = %{version}
 Belarusian resources for Iceape.
 
 %description -n iceape-lang-be -l pl.UTF-8
-Białoruskie pliki językowe dla Iceape-a.
+Białoruskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-ca
 Summary:	Catalan resources for Iceape
 Summary(ca.UTF-8):	Recursos catalans per Iceape
 Summary(es.UTF-8):	Recursos catalanes para Iceape
-Summary(pl.UTF-8):	Katalońskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Katalońskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -115,11 +115,11 @@ Recursos catalans per Iceape.
 Recursos catalanes para Iceape.
 
 %description -n iceape-lang-ca -l pl.UTF-8
-Katalońskie pliki językowe dla Iceape-a.
+Katalońskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-cs
 Summary:	Czech resources for Iceape
-Summary(pl.UTF-8):	Czeskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Czeskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -128,11 +128,11 @@ Provides:	iceape-lang-resources = %{version}
 Czech resources for Iceape.
 
 %description -n iceape-lang-cs -l pl.UTF-8
-Czeskie pliki językowe dla Iceape-a.
+Czeskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-de
 Summary:	German resources for Iceape
-Summary(pl.UTF-8):	Niemieckie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Niemieckie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -141,11 +141,11 @@ Provides:	iceape-lang-resources = %{version}
 German resources for Iceape.
 
 %description -n iceape-lang-de -l pl.UTF-8
-Niemieckie pliki językowe dla Iceape-a.
+Niemieckie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-en_GB
 Summary:	English (British) resources for Iceape
-Summary(pl.UTF-8):	Angielskie (brytyjskie) pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Angielskie (brytyjskie) pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -154,11 +154,11 @@ Provides:	iceape-lang-resources = %{version}
 English (British) resources for Iceape.
 
 %description -n iceape-lang-en_GB -l pl.UTF-8
-Angielskie (brytyjskie) pliki językowe dla Iceape-a.
+Angielskie (brytyjskie) pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-en_US
 Summary:	English (American) resources for Iceape
-Summary(pl.UTF-8):	Angielskie (amerykańskie) pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Angielskie (amerykańskie) pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -167,13 +167,13 @@ Provides:	iceape-lang-resources = %{version}
 English (American) resources for Iceape.
 
 %description -n iceape-lang-en_US -l pl.UTF-8
-Angielskie (amerykańskie) pliki językowe dla Iceape-a.
+Angielskie (amerykańskie) pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-es_AR
 Summary:	Spanish (Andorra) resources for Iceape
 Summary(ca.UTF-8):	Recursos espanyols (Andorra) per Iceape
 Summary(es.UTF-8):	Recursos españoles (Andorra) para Iceape
-Summary(pl.UTF-8):	Hiszpańskie pliki językowe dla Iceape-a (wersja dla Andory)
+Summary(pl.UTF-8):	Hiszpańskie pliki językowe dla Iceape'a (wersja dla Andory)
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -188,13 +188,13 @@ Recursos espanyols (Andorra) per Iceape.
 Recursos españoles (Andorra) para Iceape.
 
 %description -n iceape-lang-es_AR -l pl.UTF-8
-Hiszpańskie pliki językowe dla Iceape-a (wersja dla Andory).
+Hiszpańskie pliki językowe dla Iceape'a (wersja dla Andory).
 
 %package -n iceape-lang-es
 Summary:	Spanish (Spain) resources for Iceape
 Summary(ca.UTF-8):	Recursos espanyols (Espanya) per Iceape
 Summary(es.UTF-8):	Recursos españoles (España) para Iceape
-Summary(pl.UTF-8):	Hiszpańskie pliki językowe dla Iceape-a (wersja dla Hiszpanii)
+Summary(pl.UTF-8):	Hiszpańskie pliki językowe dla Iceape'a (wersja dla Hiszpanii)
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -209,11 +209,11 @@ Recursos espanyols (Espanya) per Iceape.
 Recursos españoles (España) para Iceape.
 
 %description -n iceape-lang-es -l pl.UTF-8
-Hiszpańskie pliki językowe dla Iceape-a (wersja dla Hiszpanii).
+Hiszpańskie pliki językowe dla Iceape'a (wersja dla Hiszpanii).
 
 %package -n iceape-lang-fi
 Summary:	Finnish resources for Iceape
-Summary(pl.UTF-8):	Fińskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Fińskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -222,11 +222,11 @@ Provides:	iceape-lang-resources = %{version}
 Finnish resources for Iceape.
 
 %description -n iceape-lang-fi -l pl.UTF-8
-Fińskie pliki językowe dla Iceape-a.
+Fińskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-fr
 Summary:	French resources for Iceape
-Summary(pl.UTF-8):	Francuskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Francuskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -235,11 +235,11 @@ Provides:	iceape-lang-resources = %{version}
 French resources for Iceape.
 
 %description -n iceape-lang-fr -l pl.UTF-8
-Francuskie pliki językowe dla Iceape-a.
+Francuskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-gl
 Summary:	Galician resources for Iceape
-Summary(pl.UTF-8):	Galicyjskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Galicyjskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -248,12 +248,12 @@ Provides:	iceape-lang-resources = %{version}
 Galician resources for Iceape.
 
 %description -n iceape-lang-gl -l pl.UTF-8
-Galicyjskie pliki językowe dla Iceape-a.
+Galicyjskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-hu
 Summary:	Hungarian resources for Iceape
 Summary(hu.UTF-8):	Magyar nyelv Iceape-hez
-Summary(pl.UTF-8):	Węgierskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Węgierskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -265,11 +265,11 @@ Hungarian resources for Iceape.
 Magyar nyelv Iceape-hez.
 
 %description -n iceape-lang-hu -l pl.UTF-8
-Węgierskie pliki językowe dla Iceape-a.
+Węgierskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-it
 Summary:	Italian resources for Iceape
-Summary(pl.UTF-8):	Włoskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Włoskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -278,11 +278,11 @@ Provides:	iceape-lang-resources = %{version}
 Italian resources for Iceape.
 
 %description -n iceape-lang-it -l pl.UTF-8
-Włoskie pliki językowe dla Iceape-a.
+Włoskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-ja
 Summary:	Japanese resources for Iceape
-Summary(pl.UTF-8):	Japońskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Japońskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -291,11 +291,11 @@ Provides:	iceape-lang-resources = %{version}
 Japanese resources for Iceape.
 
 %description -n iceape-lang-ja -l pl.UTF-8
-Japońskie pliki językowe dla Iceape-a.
+Japońskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-lt
 Summary:	Lithuanian resources for Iceape
-Summary(pl.UTF-8):	Litewskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Litewskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -304,11 +304,11 @@ Provides:	iceape-lang-resources = %{version}
 Lithuanian resources for Iceape.
 
 %description -n iceape-lang-lt -l pl.UTF-8
-Litewskie pliki językowe dla Iceape-a.
+Litewskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-nb
 Summary:	Norwegian Bokmaal resources for Iceape
-Summary(pl.UTF-8):	Norweskie (bokmaal) pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Norweskie (bokmaal) pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -317,11 +317,11 @@ Provides:	iceape-lang-resources = %{version}
 Norwegian Bokmaal resources for Iceape.
 
 %description -n iceape-lang-nb -l pl.UTF-8
-Norweskie (bokmaal) pliki językowe dla Iceape-a.
+Norweskie (bokmaal) pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-nl
 Summary:	Dutch resources for Iceape
-Summary(pl.UTF-8):	Holenderskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Holenderskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -330,11 +330,11 @@ Provides:	iceape-lang-resources = %{version}
 Dutch resources for Iceape.
 
 %description -n iceape-lang-nl -l pl.UTF-8
-Holenderskie pliki językowe dla Iceape-a.
+Holenderskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-pl
 Summary:	Polish resources for Iceape
-Summary(pl.UTF-8):	Polskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Polskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -343,11 +343,11 @@ Provides:	iceape-lang-resources = %{version}
 Polish resources for Iceape.
 
 %description -n iceape-lang-pl -l pl.UTF-8
-Polskie pliki językowe dla Iceape-a.
+Polskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-pt
 Summary:	Portuguese (Portugal) resources for Iceape
-Summary(pl.UTF-8):	Portugalskie pliki językowe dla Iceape-a (wersja dla Portugalii)
+Summary(pl.UTF-8):	Portugalskie pliki językowe dla Iceape'a (wersja dla Portugalii)
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -356,11 +356,11 @@ Provides:	iceape-lang-resources = %{version}
 Portuguese (Portugal) resources for Iceape.
 
 %description -n iceape-lang-pt -l pl.UTF-8
-Portugalskie pliki językowe dla Iceape-a (wersja dla Portugalii).
+Portugalskie pliki językowe dla Iceape'a (wersja dla Portugalii).
 
 %package -n iceape-lang-ru
 Summary:	Russian resources for Iceape
-Summary(pl.UTF-8):	Rosyjskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Rosyjskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -369,11 +369,11 @@ Provides:	iceape-lang-resources = %{version}
 Russian resources for Iceape.
 
 %description -n iceape-lang-ru -l pl.UTF-8
-Rosyjskie pliki językowe dla Iceape-a.
+Rosyjskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-sk
 Summary:	Slovak resources for Iceape
-Summary(pl.UTF-8):	Słowackie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Słowackie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -382,11 +382,11 @@ Provides:	iceape-lang-resources = %{version}
 Slovak resources for Iceape.
 
 %description -n iceape-lang-sk -l pl.UTF-8
-Słowackie pliki językowe dla Iceape-a.
+Słowackie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-sv
 Summary:	Swedish resources for Iceape
-Summary(pl.UTF-8):	Szwedzkie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Szwedzkie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -395,11 +395,11 @@ Provides:	iceape-lang-resources = %{version}
 Swedish resources for Iceape.
 
 %description -n iceape-lang-sv -l pl.UTF-8
-Szwedzkie pliki językowe dla Iceape-a.
+Szwedzkie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-tr
 Summary:	Turkish resources for Iceape
-Summary(pl.UTF-8):	Tureckie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Tureckie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -408,11 +408,11 @@ Provides:	iceape-lang-resources = %{version}
 Turkish resources for Iceape.
 
 %description -n iceape-lang-tr -l pl.UTF-8
-Tureckie pliki językowe dla Iceape-a.
+Tureckie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-uk
 Summary:	Ukrainian resources for Iceape
-Summary(pl.UTF-8):	Ukraińskie pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Ukraińskie pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -421,11 +421,11 @@ Provides:	iceape-lang-resources = %{version}
 Ukrainian resources for Iceape.
 
 %description -n iceape-lang-uk -l pl.UTF-8
-Ukraińskie pliki językowe dla Iceape-a.
+Ukraińskie pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-zh_CN
 Summary:	Simplified Chinese resources for Iceape
-Summary(pl.UTF-8):	Chińskie (uproszczone) pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Chińskie (uproszczone) pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -434,11 +434,11 @@ Provides:	iceape-lang-resources = %{version}
 Simplified Chinese resources for Iceape.
 
 %description -n iceape-lang-zh_CN -l pl.UTF-8
-Chińskie uproszczone pliki językowe dla Iceape-a.
+Chińskie uproszczone pliki językowe dla Iceape'a.
 
 %package -n iceape-lang-zh_TW
 Summary:	Traditional Chinese resources for Iceape
-Summary(pl.UTF-8):	Chińskie tradycyjne pliki językowe dla Iceape-a
+Summary(pl.UTF-8):	Chińskie tradycyjne pliki językowe dla Iceape'a
 Group:		I18n
 Requires:	iceape >= %{version}
 Provides:	iceape-lang-resources = %{version}
@@ -447,7 +447,7 @@ Provides:	iceape-lang-resources = %{version}
 Traditional Chinese resources for Iceape.
 
 %description -n iceape-lang-zh_TW -l pl.UTF-8
-Chińskie tradycyjne pliki językowe dla Iceape-a.
+Chińskie tradycyjne pliki językowe dla Iceape'a.
 
 %prep
 unpack() {
