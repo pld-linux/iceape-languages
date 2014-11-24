@@ -12,62 +12,62 @@ curl -s $U | sed -ne 's,.*href="\([^"]\+\)/".*,'"$U"'xpi/\1.xpi,p'
 Summary:	Language packs for Iceape
 Summary(pl.UTF-8):	Pakiety językowe dla Iceape'a
 Name:		iceape-languages
-Version:	2.26
+Version:	2.26.1
 Release:	1
 License:	MPL v2.0
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.be.langpack.xpi
-# Source0-md5:	9874c0a5ff9b54e7461c3b2b82022fb7
+# Source0-md5:	1872868de8ec67e424ae0fbdff2a9bb2
 Source1:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.ca.langpack.xpi
-# Source1-md5:	540791f59712d0425da42da7ff3424ee
+# Source1-md5:	f221bd20ee53ed5cd7391d1e2b278d78
 Source2:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.cs.langpack.xpi
-# Source2-md5:	0632128956669c9b1c83916b3ef4fe86
+# Source2-md5:	ac7757a34a19d1e62385583e79240b7c
 Source3:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.de.langpack.xpi
-# Source3-md5:	711688631153ff12ab457a90d160d7af
+# Source3-md5:	eba03d7cb259febc24e3b4bc4d481440
 Source4:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.en-GB.langpack.xpi
-# Source4-md5:	a0891e43c94b493cd346c1948262cba3
+# Source4-md5:	3a93a7acd14b8402def6ceb5331d93e0
 Source5:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.en-US.langpack.xpi
-# Source5-md5:	6f865ca62479e62e3c74abebec883154
+# Source5-md5:	f0227f1c00d4eed998095596d4f396b0
 Source6:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.es-AR.langpack.xpi
-# Source6-md5:	3c4585c350160e4226058b350b9cb1d9
+# Source6-md5:	72dca42ce6ceebea1475c2037b970dab
 Source7:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.es-ES.langpack.xpi
-# Source7-md5:	eefe299c5b871b3245281b0888e548cd
+# Source7-md5:	64d3c16eaff5b7cd185eac4fcc240268
 Source8:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.fi.langpack.xpi
-# Source8-md5:	878039c549eabf0cea65f992f32c6e8f
+# Source8-md5:	756d0c2a80bbaecaca19d4b3640f52c0
 Source9:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.fr.langpack.xpi
-# Source9-md5:	d112d837666ccc532d0a16eaf896ce2a
+# Source9-md5:	7228168ea0c17750e3fb2e3dcb86b233
 Source10:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.gl.langpack.xpi
-# Source10-md5:	c5284f8c2b832f2c96389a0e7477a763
+# Source10-md5:	6aa7f1aec19175be22a522e6ac96969a
 Source11:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.hu.langpack.xpi
-# Source11-md5:	5bf8c7a37fe15008f94d1c805914ee6a
+# Source11-md5:	3bac5372b82336cc86997e40538d2147
 Source12:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.it.langpack.xpi
-# Source12-md5:	998a160ba32d612ea576aa0fcf33344e
+# Source12-md5:	9afbcc178a5e365e3142e3ce578b8032
 Source13:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.ja.langpack.xpi
-# Source13-md5:	b14080b8e451038e292e36c0c8105e79
+# Source13-md5:	de9d6a333c6748c5c0ce00be7495efd1
 Source14:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.lt.langpack.xpi
-# Source14-md5:	691b84535d9b183bae49fa6ecad66bbd
+# Source14-md5:	89b58c140bc52856d5c8d2714f2855fe
 Source15:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.nb-NO.langpack.xpi
-# Source15-md5:	43c512ac8d1f635451a4db63d107c241
+# Source15-md5:	abbf3969d2d3cb4969063fcf4f9fe9eb
 Source16:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.nl.langpack.xpi
-# Source16-md5:	8c609a6d7a41800e1291c05d1bd22713
+# Source16-md5:	175dc44d75a0e3016098d4ffd145a06c
 Source17:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.pl.langpack.xpi
-# Source17-md5:	5b476aacd617b7a3347840f3b93f0b1a
+# Source17-md5:	8482a977b38c671d51fe4bf4cb675128
 Source18:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.pt-PT.langpack.xpi
-# Source18-md5:	cfbaad5623e9e7f1e6a3f750ab78f568
+# Source18-md5:	352f501a36d72260cd72be002e28778e
 Source19:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.ru.langpack.xpi
-# Source19-md5:	3a7b4843012e8d4d34c5efa8608010d5
+# Source19-md5:	c87c1a468336480e7f78cc0bfb7a9acb
 Source20:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.sk.langpack.xpi
-# Source20-md5:	b2acbe297242a862f6f5e81d125bb436
+# Source20-md5:	4a99a53b507aa9ce7dd5416b171b08b9
 Source21:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.sv-SE.langpack.xpi
-# Source21-md5:	80e84ea303ed2740a28bd40d03178462
+# Source21-md5:	6e343165e3316c1418f14371fd61b241
 Source22:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.tr.langpack.xpi
-# Source22-md5:	1cb1047e83c2e73a9b3d71f27ed3dfc8
+# Source22-md5:	c4d4777bb7b55cb5452ba0f1c49d6941
 Source23:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.uk.langpack.xpi
-# Source23-md5:	208c6f713482b372b3dc5a70a8f8cc4d
+# Source23-md5:	cfd1c0316e77944576d08a26390e1f45
 Source24:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.zh-CN.langpack.xpi
-# Source24-md5:	23a117adafe130351170194f15d11ae8
+# Source24-md5:	334812eb98a0b6970aeb6a813f860a23
 Source25:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/langpack/seamonkey-%{version}.zh-TW.langpack.xpi
-# Source25-md5:	22540626510c9c0660fe4f24cb4a6105
+# Source25-md5:	11045f18562190ecb25f9b832951044a
 URL:		http://www.seamonkey-project.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
